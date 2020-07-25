@@ -11,7 +11,7 @@ function App() {
         <div className="container">
             <div>
                 <nav className="navbar navbar-light navbar-expand-md">
-                    <div className="container-fluid"><Link className="navbar-brand" to="#" style={{color: "rgba(251,251,251,0.9)"}}><img alt={''} src="https://myafrilearn.com/assets/img/afrilearn_logo.png" width="150"/></Link><button className="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+                    <div className="container-fluid"><Link className="navbar-brand" to="#" style={{color: "rgba(251,251,251,0.9)"}}><img alt={''} src="https://myafrilearn.com/assets/img/afrilearn_logo.png" width="150"/></Link><button className="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span className="sr-only">Toggle navigation</span><span><i class="fas fa-bars"></i></span></button>
                         <div
                             className="collapse navbar-collapse" id="navcol-1">
                             <ul className="nav navbar-nav ml-auto">
